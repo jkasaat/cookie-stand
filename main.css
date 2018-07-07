@@ -1,5 +1,13 @@
-h1 {
-    color:green;
-    background-color: beige
+table {
 
+border-collapse: collapse;
+width: 100%;
+
+}
+
+table, th, td {
+
+border: 1px solid black;
+
+text-align: left;
 }
