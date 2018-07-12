@@ -1,16 +1,17 @@
 table {
-
-border-collapse: collapse;
-width: 100%;
-background-color: darkgray
-
+	border-collapse: collapse;
+	width: 100%;
+	background-color: darkgray;
 }
 
 table, th, td {
+	border: 1px solid black;
+	text-align: left;
+}
 
-border: 1px solid black;
-
-text-align: left;
+table > tr:first-child > th, table > tr:last-child > td {
+		font-weight: bold;
+		text-align: center;
 }
 
 fieldset {
