@@ -51,7 +51,7 @@ for (let i = 0; i < storeArray.length; i++) {
     elRow.appendChild(name);
 
     // Body Row
-    for (let m = 0; m < storeArray[i].cookieSalesArray.length; m++) {			// here, you missed 'storeArray[i].'; because each cookieSalesArray is in its corresponding storeArray object
+    for (let m = 0; m < storeArray[i].cookieSalesArray.length; m++) {		
         let cookieSales = document.createElement('td');
         cookieSales.innerText = storeArray[i].cookieSalesArray[m];			
         elRow.appendChild(cookieSales);
