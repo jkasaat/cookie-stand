@@ -8,30 +8,90 @@
 		<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 	</head>
 
-	<body id="main-content">
-		
+	<body id="sales">
+        
+        <header>
+            <h1> Maryland Cookie Chain</h1>
+        </header>
 
-<fieldset>
-    <form id='cookie-stores'>
-        <label>Store Name</label> <br>
-        <input name='cookieStand' type='text'/><br>
-        <label name = 'cookiesSold'>Cookies sold</label><br>
-        <label>6:00AM</label><input name='rev1' type='number' required/>
-        <label>7:00AM</label><input name='rev2' type='number' required />
-        <label>8:00AM</label><input name='rev3' type='number'required/>
-        <label>9:00AM</label><input name='rev4' type='number' required/>
-        <label>10:00AM</label><input name='rev5' type='number' required/>
-        <label>11:00AM</label><input name='rev6' type='number' required/>
-        <label>12:00PM</label><input name='rev7' type='number' required/>
-        <label>1:00PM</label><input name='rev8' type='number' required/>
-        <label>2:00PM</label><input name='rev9' type='number' required/><br>
+        <nav class="nav-bar"> 
+            <a href="file:///Users/jalaluddinkasaat/Desktop/CODING/Projects/cookie-stand/index.html">Home</a>
+            <a id="tab1" href="file:///Users/jalaluddinkasaat/Desktop/CODING/Projects/cookie-stand/sales.html">Our stores</a>
+            <a href="#infohead">About our company</a>
+            <a href="#h2-contactus">Contact us</a>
+            <a href="#order">Place an Order</a>
+            
+        </nav>
 
- <button type='submit'>Submit</button>
-    </form>
-</fieldset>
+        <div class="store-div">
 
-<div id='table-container'></div>
+            <Section>
+
+                <h2 id="store-list">Our Stores</h2>
+                <ul>
+                    <li>Silver Spring Cookie Stand</li>
+                    <li>Silver Spring Cookie Stand</li>
+                    <li>Silver Spring Cookie Stand</li>
+                    <li>Silver Spring Cookie Stand</li>
+                    <li> More Stores to Come</li>
+                </ul>    
+            
+            </Section>
+            
+        </div>
+
+        <div>
+
+        <article class="info">
+                        
+                            <h2 id="infohead"> About Maryland Cookie Chain</h2>
+
+                            <p>
+                            Maryland Cookie Chain is the fastest growing cookie business in DC Metro Area.
+                            </p>
+
+        <h3>Below are our most popular cookie shapes:</h3>
+
+        <figure>
+        <img src="https://raw.githubusercontent.com/CodePartnersMD/MD201-01/master/lecture-09/lab/assets/chinook.jpg, https://raw.githubusercontent.com/CodePartnersMD/MD201-01/master/lecture-09/lab/assets/chinook.jpg" alt="chinook cookie" width=250px caption:"Chinook cookie">
+        <figcaption> Chinook cookie </figcaption>  
+        </figure>
+
+        <figure>
+                <img src="https://raw.githubusercontent.com/CodePartnersMD/MD201-01/master/lecture-09/lab/assets/fish.jpg, https://raw.githubusercontent.com/CodePartnersMD/MD201-01/master/lecture-09/lab/assets/fish.jpg" alt="chinook cookie" width=250px caption:"Chinook cookie">
+                <figcaption> Colorful fish cookies </figcaption>  
+                </figure>
+        <figure>
+        <img src='https://raw.githubusercontent.com/CodePartnersMD/MD201-01/master/lecture-09/lab/assets/frosted-cookie.jpg, https://raw.githubusercontent.com/CodePartnersMD/MD201-01/master/lecture-09/lab/assets/frosted-cookie.jpg' alt="chinook cookie" width=250px caption:"Chinook cookie">
+        <figcaption> frosted cookie </figcaption>  
+        </figure>
+        
+        </article>
+
+        <article id="order">
+            <label for="fish-cookies">Place an Order</label>
+            <select name="slect-cookie" id="select-cookie">
+                <option value="text">Chinook Cookie</option>
+                <option value="text">Colorful Fish Cookies</option>
+                <option value="text">Fronted Cookies</option>
+            </select>
+            <label for="lb of Cookies">Weight by lb</label><input type="number" value="">
+            <button>Submit</button>
+        </article>
+
+        <article class="contact-us">
+            
+            <h2 id="h2-contactus">Contact Us</h2>
+
+            <p id="ending"> Send us an
+            <a href="mailto: jkasaat@gmail.com">email</a> if you have any questions.
+
+            </p>
+        </article>
+
+        </div>                 
+                
 
     </body>
-	<script src="main.js"></script>
+	
 </html>
