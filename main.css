@@ -135,6 +135,14 @@ ul {
 
 }
 
+#order {
+
+	height: 5cm;
+	background-color: chocolate;
+	padding: 8px 12px;
+	
+}
+
 .contact-us {
 
 	height: 5cm;
