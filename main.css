@@ -7,6 +7,7 @@ table {
 table, th, td {
 	border: 1px solid black;
 	text-align: left;
+	color:darkslategrey
 }
 
 table > tr:first-child > th, table > tr:last-child > td {
@@ -16,14 +17,162 @@ table > tr:first-child > th, table > tr:last-child > td {
 
 fieldset {
 
-    width: 1250px;
+    width: 1800x;
     border: 1px solid #8d2a2a;
-    border-radius: 10px solid #1eb400
+	border-radius: 10px solid #1eb400;
+	padding: 3mm;
 
 }
 
 button {
-    width: 100px;
+    width: 150px;
     margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
+	background-color: cadetblue;
+	color: lightyellow;
+	padding: 10px 12px;
+	font-size: 20px;
 }
+
+
+/* */
+
+
+#sales {
+
+	background-color: rosybrown;
+}
+
+header {
+	background-color: darkgray;
+	opacity: 0.5;
+	margin: 3em;
+	border-style: solid;
+	border-color: #8d2a2a;
+	border-width: 0.5mm;
+
+}
+
+.nav-bar {
+
+	overflow: hidden;
+	width: 150cm;
+	height: 1cm;
+	background-color: skyblue;
+	opacity: 0.8;
+	margin: 2cm;
+	font-size: 40px;
+	padding: 1mm;
+
+
+}
+
+.nav-bar a {
+
+	float: left;
+	color: #8d2a2a;
+	padding: 14px 16px;
+	text-align: center;
+	font-size: 18px;
+	text-decoration: none;
+
+
+
+
+}
+
+.nav-bar a:hover {
+
+	background-color: #1eb400;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	color: maroon;
+
+}
+
+ul {
+	
+	color: black;
+	font-size-adjust: inherit;
+	list-style: none;
+	padding:5mm;
+	line-height: 1.5;
+	
+	
+}
+
+.store-div {
+
+	background-color: darkgray;
+	opacity: 0.5;
+	position: absolute;
+	left: 0px;
+	width: 7cm;
+    height: 15cm;
+	margin: 0%;
+
+}
+
+#store-list {
+
+	text-align: center;
+	color: maroon;
+}
+
+.info {
+
+	background-color: crimson;
+	opacity: 0.6;
+	position: relative;
+	width: 10cm;
+	height: 20cm;
+	left: 20cm;
+	padding: 5mm
+
+
+}
+
+.contact-us {
+
+	height: 5cm;
+	background-color: goldenrod;
+	padding: 12px 16px;
+}
+
+#h2-contactus {
+
+	text-align: left;
+}
+
+/* Sales HTML Layout */
+
+#main-content {
+
+	background-color: darkseagreen;
+
+
+}
+
+#cookie-stores {
+
+	background-color: beige;
+	color: gray;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding:5mm;
+	
+}
+
+.cookie-head {
+
+	color: white;
+}
+
+label {
+
+	padding:1mm;
+}
+
+

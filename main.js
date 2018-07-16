@@ -10,7 +10,6 @@ let storeThree = new Store('White Oak Cookie Stand', [4, 18, 16, 12, 1, 3, 3, 9,
 let storeFour = new Store('Takoma Park Cookie Stand', [34, 27, 9, 9, 13, 14, 7, 2, 1]);
 
 
-
 let storeArray = [storeOne, storeTwo, storeThree, storeFour];
 
 let elBody = document.getElementById('table-container');
@@ -60,6 +59,7 @@ for (let i = 0; i < storeArray.length; i++) {
     };
 
 };
+
 
 // Footer
 
